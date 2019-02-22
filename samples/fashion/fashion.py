@@ -86,7 +86,7 @@ class BalloonDataset(utils.Dataset):
         dataset_dir: Root directory of the dataset.
         subset: Subset to load: train or val
         """
-        # Add classes. We have only one class to add.
+        # Add classes. We have 59 classes.
         self.add_class("balloon", 1, "balloon")
 
         # Train or validation dataset?
